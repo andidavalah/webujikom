@@ -234,3 +234,214 @@ small{
 .col-5 img:hover{
     filter: grayscale(0);
 }
+
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;    
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px ;
+    margin-bottom:20px ;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom:20px ;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border:none ;
+    background:#b5b5b5 ;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+
+
+.cart-page{
+    margin:80px auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: flex;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ddd089;
+    font-weight:normal ;
+}
+
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color:#ddd089 ;
+    font-size: 15px;
+}
+td img{
+    margin-right:30px ;
+}
+.total-price{
+    display: flex;
+    justify-content:flex-end ;
+}
+.total-price table{
+    border-top:3px solid #ddd089;
+    width:100% ;
+    max-width:280px ;
+}
+
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff, #e7e2e2 );
+
+}
+.form-container{
+    background: #fff;
+    width: 300px; ;
+    height: 400px ;
+    position: relative ;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+   position: absolute;
+    top: 130px; 
+    transition: transform 1s;
+}
+
+ form input{
+    width:100% ;
+    height: 30px;
+    margin: 10px 0 ;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn:focus{
+    outline: none;
+}
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+   left: 0; 
+}
+form a{
+    font-size: 12px;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background:#ddd089;
+    height:3px;
+    margin-top:8px ;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+.single-product{
+    margin-top: 80px;
+}
+.single-product .col-2 img{
+    padding: 0;
+}
+.single-product .col-2 {
+    padding: 20px;
+}
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product select{
+    display: block;
+    padding:10px ;
+    margin-top: 20px;
+}
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ddd089;
+}
+input:focus{
+    outline: none;
+}
+.single-product .fa{
+    color:#ddd089;
+    margin-left: 10px;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
