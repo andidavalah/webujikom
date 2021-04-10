@@ -169,7 +169,7 @@ h4{
 
 .offer{
     background: radial-gradient(#fff, #e7e2e2 );
-    margin-top: 80px;
+    margin-top: 100px;
     padding: 30px 0;
 }
 
@@ -444,4 +444,21 @@ input:focus{
 .small-img-col{
     flex-basis: 24%;
     cursor: pointer;
+}
+.page-btn{
+    margin: 0 auto 80px ;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ddd089;
+    margin-left:10px ;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background:#ddd089 ;
+    color: #fff;
 }
